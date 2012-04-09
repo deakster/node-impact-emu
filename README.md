@@ -18,7 +18,7 @@ replay using the same logic and code on server
 
 ## Usage
 
-Note: The require calls are only needed in one place, in the entry point of your app. After that, their effect is global.
+### Note: Enabling the systems should only be done in one place, in the entry point of your app. After that, their effect is global.
 
 Enable the [Class System](http://impactjs.com/documentation/class-reference/class):
 
