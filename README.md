@@ -1,7 +1,7 @@
 ## Description
 
-Enables various features from the ImpactJS HTML5 framework in Node.js to enable code
-sharing and re-use between the client and server side. The features that are emulated are:
+Enables various features from the [ImpactJS](http://impactjs.com) HTML5 framework in Node.js to enable code
+sharing and re-use between the client and server side.
 
 The features that are emulated or re-created are:
 
@@ -14,7 +14,7 @@ The features that are emulated or re-created are:
 * Server authoritative multiplayer games
 * High score validation - record inputs from the game, send over to server after level is done, server can then
 replay using the same logic and code on server
-* Use game data or game structures in your webapp
+* Use or embed game data or game structures from your game into your webapp
 
 ## Usage
 
