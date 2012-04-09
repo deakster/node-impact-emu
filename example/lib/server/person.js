@@ -1,5 +1,5 @@
 ig.module(
-	'server.test'
+	'server.person'
 ).requires(
 	// Enter modules that this one depends on here
 ).defines(function () {
