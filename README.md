@@ -1,6 +1,6 @@
 ## Description
 
-Enables various features from the [ImpactJS](http://impactjs.com) HTML5 framework in Node.js to enable code
+Enables various features from the [ImpactJS](http://impactjs.com) HTML5 game engine in Node.js to enable code
 sharing and re-use between the client and server side.
 
 The features that are emulated or re-created are:
