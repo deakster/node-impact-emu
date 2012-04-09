@@ -18,19 +18,22 @@ replay using the same logic and code on server
 
 ## Usage
 
-Enable the [class system](http://impactjs.com/documentation/class-reference/class):
+Enable the [Class System](http://impactjs.com/documentation/class-reference/class):
 
 ```javascript
 require("node-impact-emu").useClass();
 ```
 
-Enable the [module system](http://impactjs.com/documentation/class-reference/ig-core#module-definition):
+Enable the [Module System](http://impactjs.com/documentation/class-reference/ig-core#module-definition):
 
 ```javascript
 // Note: Must pass in the root class path folder. This can be the same lib folder that
 // contains your client-side modules
 require("node-impact-emu").useModule(__dirname + '/lib');
 ```
+
+Enabling the module system allows you to manage all modules using the ImpactJS
+style ```ig.module('...').requires('...', '...', '...').defines(...);``` rather than using node.js's **require** function.
 
 Enable the [Native JavaScript Object Extensions](http://impactjs.com/documentation/class-reference/ig-core#native-javascript-object-extensions):
 
@@ -48,8 +51,10 @@ require("node-impact-emu").useNative().useClass();
 Or you can enable everything:
 
 ```javascript
-require("node-impact-emu").useAll(__dirname + '/lib'); // Also requires class path folder
+require("node-impact-emu").useAll(__dirname + '/lib'); // Also takes class path folder for useModule
 ```
+
+See example folder for an example app.
 
 ## Disclaimer
 
