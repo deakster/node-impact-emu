@@ -1,0 +1,12 @@
+{
+  "author": "Deakster",
+  "name": "node-impact-emu",
+  "description": "ImpactJS emulation layer for Node.js, to enable the class system, module system and native type extensions from ImpactJS on the server.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/deakster/node-impact-emu",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deakster/node-impact-emu.git"
+  },
+  "main": "lib/impact-emu.js"
+}
