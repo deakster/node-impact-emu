@@ -18,13 +18,13 @@ replay using the same logic and code on server
 
 ## Usage
 
-Enable the class system:
+Enable the [class system](http://impactjs.com/documentation/class-reference/class):
 
 ```javascript
 require("node-impact-emu").useClass();
 ```
 
-Enable the module system:
+Enable the [module system](http://impactjs.com/documentation/class-reference/ig-core#module-definition):
 
 ```javascript
 // Note: Must pass in the root class path folder. This can be the same lib folder that
@@ -32,7 +32,7 @@ Enable the module system:
 require("node-impact-emu").useModule(__dirname + '/lib');
 ```
 
-Enable the native type extensions:
+Enable the [Native JavaScript Object Extensions](http://impactjs.com/documentation/class-reference/ig-core#native-javascript-object-extensions):
 
 ```javascript
 require("node-impact-emu").useNative();
