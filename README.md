@@ -5,7 +5,7 @@ sharing and re-use between the client and server side.
 
 The features that are emulated or re-created are:
 
-* The Module syste
+* The Module system
 * The Class system
 * The Native type extensions
 
